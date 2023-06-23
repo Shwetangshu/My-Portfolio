@@ -57,8 +57,8 @@ This project is licensed under the [MIT License](LICENSE).
 For any inquiries or collaborations, feel free to reach out to me:
 
 - Email: shwetangshu.biswas@gmail.com
-- LinkedIn: Shwetangshu Biswas (https://www.linkedin.com/in/shwetangshu-biswas)
-- GitHub: Shwetangshu Biswas (https://github.com/Shwetangshu)
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shwetangshu-biswas)
+- [![GitHub](https://img.shields.io/badge/GitHub-%23121011?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shwetangshu)
 
 ---
 
