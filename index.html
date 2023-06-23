@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- External Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="portest.css">
+    <!-- External CSS for Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- External JavaScript -->
+    <script src="portest.js"></script>
+    <script src="load.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<!-- Loader -->
+<div class="loader">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+</div>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <h1 class="logo">My Portfolio.</h1>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container" id="presentation">
+            <h1>Hi, it's me Shwetangshu.</h1>
+            <p>
+                <span class="static-text">I'm interested in&nbsp;</span>
+                <span id="newmsg"></span>
+            </p>
+        </div>
+        <a href="#contact" class="cta-button">Get In Touch</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about container">
+            <div class="col-left">
+                <div class="about-img">
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="image-container">
+                    <img src="me.jpeg" alt="Profile Image">
+                </div>
+                <h1 class="section-title">About me</h1>
+                <p>Enthusiastic Electrical Engineering student with a passion for problem-solving, puzzle-solving, and
+                    web development. Skilled in breaking down complex challenges into smaller parts to deliver
+                    innovative solutions. Strong interest in front-end web development, proficient in HTML, CSS, and
+                    JavaScript. Actively expanding knowledge in AI/ML while pursuing online courses. Effective team
+                    player with good communication skills, embracing diverse perspectives.</p>
+                <a href="https://drive.google.com/file/d/1WzNt6hIIOTvRs_jdAFTlC2tSG8fRKbNq/view?usp=drive_link"
+                    target="_blank" class="cv-download">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <ul class="skills">
+                <li class="skill-item skill-small">HTML5</li>
+                <li class="skill-item skill-medium">CSS3</li>
+                <li class="skill-item skill-large">JavaScript</li>
+                <li class="skill-item skill-small">GIT</li>
+                <li class="skill-item skill-medium">Python</li>
+                <li class="skill-item skill-mmedium">Linux</li>
+                <li class="skill-item skill-vsmall">C</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Calculator</h3>
+                <p>A simple calculator webpage made with HTML CSS JS.</p>
+                <p class="bod">
+                    Link:&nbsp;<a class="link1" href="https://calculator-webpage-5smw.vercel.app/" target="_blank">Click
+                        here.</a>
+                </p>
+                <p class="bod">GitHub:&nbsp;<a href="https://github.com/Shwetangshu/Calculator-Webpage " class="link1" target="_blank">Click here.</a></p>
+            </div>
+            <div class="project">
+                <h3>QR Code Frontend</h3>
+                <p>Frontend design of a QR Code Webpage.</p>
+                <p class="bod">
+                    Link:&nbsp;<a class="link1" href="https://qr-code-frontend-shwetangshu.netlify.app/"
+                        target="_blank">Click here.</a>
+                </p>
+                <p class="bod">GitHub:&nbsp;<a href="https://github.com/Shwetangshu/QR-Code-Frontend-Design" class="link1" target="_blank">Click here.</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" name="name" placeholder=" Name" required>
+                <input type="email" name="email" placeholder=" Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer_body">
+        <div class="container_footer">
+            <div class="container-fluid">
+                <div class="footer">
+                    <div class="row">
+                        <!-- Social Media Links -->
+                        <a href="https://www.facebook.com/profile.php?id=100086902184744" target="_blank"><i
+                                class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/shwetangshub/" target="_blank"><i
+                                class="fa fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shwetangshu-biswas/" target="_blank"><i
+                                class="fa fa-linkedin"></i></a>
+                        <a href="https://twitter.com/shwetangshub" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a href="https://github.com/Shwetangshu" target="_blank"><i class="fa fa-github"></i></a>
+                        <p class="row">
+                            &copy; 2023 Shwetangshu. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="portest.js"></script>
+
+</body>
+
+</html>
